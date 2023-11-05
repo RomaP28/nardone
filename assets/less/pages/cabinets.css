@@ -120,6 +120,7 @@ header.home h1 {
 header.cabinets {
   height: 58.1rem;
   background: url(../../img/single_banner.webp) no-repeat center center / cover;
+  padding-top: 29rem;
 }
 header nav {
   width: 100%;
@@ -128,7 +129,7 @@ header nav {
   padding: 2.8rem 14rem 0;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 header .container {
   width: 100%;
