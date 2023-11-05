@@ -1,0 +1,100 @@
+.word_wrap{
+    font-weight: 600;
+    overflow: hidden;
+    height: 8rem;
+    margin-top: 1rem;
+    .list {
+      margin-top: 0;
+      text-align: center;
+      list-style: none;
+
+      -webkit-animation-name: change;
+      -webkit-animation-duration: 10s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: change;
+      animation-duration: 18s;
+      animation-iteration-count: infinite;
+    }
+  p {
+    font-size: 6.978rem;
+    font-family: Lexend-600;
+    line-height:7.24rem;
+    margin: 0 0 2rem 0;
+  }
+}
+
+@-webkit-keyframes change {
+  0%, 10%, 100% {transform: translateY(0)}
+
+  12.1%, 12.2% {transform: translateY(-12%)}
+  13%, 20% {transform: translateY(-11.111%)}
+
+  22.1%, 22.2% {transform: translateY(-24.111%)}
+  23%, 30% {transform: translateY(-23.222%)}
+
+  32.1%, 32.2% {transform: translateY(-35.5%)}
+  33%, 40% {transform: translateY(-34.4%)}
+
+  42.1%, 42.2% {transform: translateY(-46.6%)}
+  43%, 50% {transform: translateY(-45.5%)}
+
+  52.1%, 52.2% {transform: translateY(-57.7%)}
+  53%, 60% {transform: translateY(-57.2%)}
+
+  62.1%, 62.2% {transform: translateY(-68.9%)}
+  63%, 70% {transform: translateY(-68%)}
+
+  72.1%, 72.2% {transform: translateY(-79.9%)}
+  73%, 80% {transform: translateY(-79%)}
+
+  82.1%, 82.2% {transform: translateY(-92%)}
+  83%, 90% {transform: translateY(-91%)}
+
+  97% {transform: translateY(5%)}
+  99% {transform: translateY(0%)}
+}
+
+@media (max-width: 768px) {
+  .word_wrap {
+    overflow: hidden;
+    height: 4rem;
+    margin-top: .1rem;
+    p {
+      font-size: 4rem;
+      line-height: 4.15rem;
+      margin: 0 0 2rem 0;
+    }
+  }
+
+  @-webkit-keyframes change {
+    0%, 10%, 100% {transform: translateY(0)}
+
+    12.1%, 12.2% {transform: translateY(-12%)}
+    13%, 20% {transform: translateY(-11.111%)}
+
+    22.1%, 22.2% {transform: translateY(-24.111%)}
+    23%, 30% {transform: translateY(-23.222%)}
+
+    32.1%, 32.2% {transform: translateY(-35.5%)}
+    33%, 40% {transform: translateY(-34.4%)}
+
+    42.1%, 42.2% {transform: translateY(-47.6%)}
+    43%, 50% {transform: translateY(-46.5%)}
+
+    52.1%, 52.2% {transform: translateY(-57.7%)}
+    53%, 60% {transform: translateY(-57.2%)}
+
+    62.1%, 62.2% {transform: translateY(-69.9%)}
+    63%, 70% {transform: translateY(-69%)}
+
+    72.1%, 72.2% {transform: translateY(-80.9%)}
+    73%, 80% {transform: translateY(-80%)}
+
+    82.1%, 82.2% {transform: translateY(-93%)}
+    83%, 90% {transform: translateY(-92%)}
+
+    97% {transform: translateY(5%)}
+    99% {transform: translateY(0%)}
+  }
+
+}

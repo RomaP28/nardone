@@ -1,0 +1,61 @@
+@import "variables";
+@import "fonts";
+
+body{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+
+  @media(max-width: 4000px) {
+    font-size: calc(10/1920 * 100vw);
+  }
+
+  @media(max-width: 768px) {
+    font-size: calc(10/390 * 100vw);
+  }
+}
+
+html.lock,
+html.lock body{
+  overflow: hidden;
+  position: relative;
+  //height: -webkit-fill-available;
+  height: 100vh;
+}
+
+img{
+  width: 100%;
+}
+
+
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    //color: inherit;
+  }
+}
+
+ul{
+  li{
+    list-style: none;
+  }
+}
+
+.hidden{
+  display: none !important;
+}
+
+.orange {
+  color: @orange-color;
+}

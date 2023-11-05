@@ -1,0 +1,187 @@
+header{
+  width: 100%;
+
+  &.home{
+    height: 92.7rem;
+    background: url(../../img/home_hero.webp) no-repeat center center / cover;
+    h1{
+      max-width: 54.2rem;
+    }
+  }
+
+  &.cabinets{
+    height: 58.1rem;
+    background: url(../../img/single_banner.webp) no-repeat center center / cover;
+  }
+
+  nav {
+    width: 100%;
+    height: 29.7rem;
+    background: linear-gradient(rgba(26, 47, 64, 1), rgba(30, 52, 69, 0.77), rgba(36, 58, 75, 0));
+    padding: 2.8rem 14rem 0;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 144rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    a{
+      color: #fff;
+      font-family: Lexend-400;
+      font-size: 1.6rem;
+      line-height: 2.9rem;
+      text-decoration: none;
+    }
+  }
+
+  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile{
+    display: none;
+  }
+  .social{
+    width: 6.7rem;
+    margin-top: .3rem;
+    li{
+      width: 1.8rem;
+
+      &:first-child {
+        position: relative;
+        &:after{
+          content: '';
+          position: absolute;
+          left: 3.2rem;
+          top: .3rem;
+          width: .1rem;
+          height: 2rem;
+          background: white;
+        }
+      }
+    }
+  }
+
+  .menu{
+    margin: 0 auto;
+
+    ul{
+      column-gap: 6.4rem;
+    }
+  }
+
+  .logo{
+    width: 14.4rem;
+    margin: 0 3rem;
+  }
+
+  .active{
+    border-bottom: 1px solid @orange-color;
+  }
+
+  .phone{
+    a{
+      font-family: Montserrat-600;
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      display: flex;
+      align-items: center;
+      color: @orange-color;
+    }
+    img{
+      max-width: 2rem;
+      margin-right: .8rem;
+    }
+  }
+
+  h1{
+    font-family: Lexend-600;
+    font-size: 6.978rem;
+    line-height: 7.24rem;
+    color: #fff;
+    margin: .8rem auto 0;
+    text-align: center;
+  }
+
+  .bottom{
+    width: fit-content;
+    margin: 9.5rem auto 0;
+    display: flex;
+    column-gap: 1.7rem;
+  }
+}
+
+@media(max-width: 768px) {
+  header{
+    &.home{
+      height: 71.9rem;
+      background: url(../../img/mobile_banner.webp) no-repeat center center / cover;
+      h1{
+        margin-top: 16rem;
+        max-width: 31.1rem;
+      }
+    }
+
+    //&.cabinets{
+    //  height: 58.1rem;
+    //  background: url(../../img/single_banner.webp) no-repeat center center / cover;
+    //}
+
+    nav {
+      height: 9rem;
+      padding: 1.6rem 1.6rem 0 1.7rem;
+    }
+
+    .container {
+      justify-content: space-between;
+    }
+
+    .social,
+    .menu{
+      display: none;
+    }
+
+    .logo{
+      width: 8.293rem;
+      height: 4rem;
+      margin: 0;
+    }
+
+    .phone{
+      a{
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+      img{
+        max-width: 2rem;
+        margin-right: .8rem;
+      }
+    }
+
+    .desktop{
+      display: none;
+    }
+
+    .mobile{
+      display: initial;
+    }
+
+    h1{
+      font-size: 4rem;
+      line-height: 4.15rem;
+      margin: 0 auto;
+    }
+
+    .bottom{
+      margin: 3.3rem auto 0;
+      flex-direction: column;
+      row-gap: 1.7rem;
+    }
+  }
+}

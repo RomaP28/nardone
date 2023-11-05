@@ -1,0 +1,592 @@
+@font-face {
+  font-family: 'Montserrat-300';
+  src: local('Montserrat-Light'), local('Montserrat-Light'), url('../../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-400';
+  src: local('Montserrat-Regular'), local('Montserrat-Regular'), url('../../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-500';
+  src: local('Montserrat-Medium'), local('Montserrat-Medium'), url('../../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-600';
+  src: local('Montserrat-SemiBold'), local('Montserrat-SemiBold'), url('../../fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-700';
+  src: local('Montserrat-Bold'), local('Montserrat-SemiBold'), url('../../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lexend-300';
+  src: local('Lexend-Light'), local('Lexend-Light'), url('../../fonts/Lexend-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lexend-400';
+  src: local('Lexend-Regular'), local('Lexend-Regular'), url('../../fonts/Lexend-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lexend-500';
+  src: local('Lexend-Medium'), local('Lexend-Medium'), url('../../fonts/Lexend-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lexend-600';
+  src: local('Lexend-SemiBold'), local('Lexend-SemiBold'), url('../../fonts/Lexend-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 10px;
+}
+@media (max-width: 4000px) {
+  html {
+    font-size: calc(10/1920 * 100vw);
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: calc(10/390 * 100vw);
+  }
+}
+html.lock,
+html.lock body {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+img {
+  width: 100%;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.hidden {
+  display: none !important;
+}
+.orange {
+  color: #ff8200;
+}
+header {
+  width: 100%;
+}
+header.home {
+  height: 92.7rem;
+  background: url(../../img/home_hero.webp) no-repeat center center / cover;
+}
+header.home h1 {
+  max-width: 54.2rem;
+}
+header.cabinets {
+  height: 58.1rem;
+  background: url(../../img/single_banner.webp) no-repeat center center / cover;
+}
+header nav {
+  width: 100%;
+  height: 29.7rem;
+  background: linear-gradient(#1a2f40, rgba(30, 52, 69, 0.77), rgba(36, 58, 75, 0));
+  padding: 2.8rem 14rem 0;
+}
+header .container {
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+header .container a {
+  color: #fff;
+  font-family: Lexend-400;
+  font-size: 1.6rem;
+  line-height: 2.9rem;
+  text-decoration: none;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .mobile {
+  display: none;
+}
+header .social {
+  width: 6.7rem;
+  margin-top: 0.3rem;
+}
+header .social li {
+  width: 1.8rem;
+}
+header .social li:first-child {
+  position: relative;
+}
+header .social li:first-child:after {
+  content: '';
+  position: absolute;
+  left: 3.2rem;
+  top: 0.3rem;
+  width: 0.1rem;
+  height: 2rem;
+  background: white;
+}
+header .menu {
+  margin: 0 auto;
+}
+header .menu ul {
+  column-gap: 6.4rem;
+}
+header .logo {
+  width: 14.4rem;
+  margin: 0 3rem;
+}
+header .active {
+  border-bottom: 1px solid #ff8200;
+}
+header .phone a {
+  font-family: Montserrat-600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  display: flex;
+  align-items: center;
+  color: #ff8200;
+}
+header .phone img {
+  max-width: 2rem;
+  margin-right: 0.8rem;
+}
+header h1 {
+  font-family: Lexend-600;
+  font-size: 6.978rem;
+  line-height: 7.24rem;
+  color: #fff;
+  margin: 0.8rem auto 0;
+  text-align: center;
+}
+header .bottom {
+  width: fit-content;
+  margin: 9.5rem auto 0;
+  display: flex;
+  column-gap: 1.7rem;
+}
+@media (max-width: 768px) {
+  header.home {
+    height: 71.9rem;
+    background: url(../../img/mobile_banner.webp) no-repeat center center / cover;
+  }
+  header.home h1 {
+    margin-top: 16rem;
+    max-width: 31.1rem;
+  }
+  header nav {
+    height: 9rem;
+    padding: 1.6rem 1.6rem 0 1.7rem;
+  }
+  header .container {
+    justify-content: space-between;
+  }
+  header .social,
+  header .menu {
+    display: none;
+  }
+  header .logo {
+    width: 8.293rem;
+    height: 4rem;
+    margin: 0;
+  }
+  header .phone a {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  header .phone img {
+    max-width: 2rem;
+    margin-right: 0.8rem;
+  }
+  header .desktop {
+    display: none;
+  }
+  header .mobile {
+    display: initial;
+  }
+  header h1 {
+    font-size: 4rem;
+    line-height: 4.15rem;
+    margin: 0 auto;
+  }
+  header .bottom {
+    margin: 3.3rem auto 0;
+    flex-direction: column;
+    row-gap: 1.7rem;
+  }
+}
+footer {
+  background: #243a4b;
+  padding: 5.5rem 1.5rem 0;
+}
+footer .container {
+  max-width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 7.1rem;
+}
+footer .logo {
+  width: 23.3rem;
+}
+footer h3 {
+  color: #fff;
+  margin-top: 3.4rem;
+  font-family: Lexend-600;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+footer li {
+  font-family: Lexend-400;
+  font-size: 1.6rem;
+  line-height: 3.9rem;
+  color: #fff;
+  width: fit-content;
+}
+footer a {
+  color: #fff;
+}
+footer .footer-menu {
+  padding-right: 6.6rem;
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+footer .footer-menu ul {
+  margin-top: 3.3rem;
+}
+footer .footer-menu ul img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.7rem;
+}
+footer .footer-menu li {
+  display: flex;
+  align-items: center;
+}
+footer .footer-menu li,
+footer .footer-menu a {
+  font-family: Montserrat-400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+footer .follow-us {
+  margin-top: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  height: 2.1rem;
+  width: 17.4rem;
+}
+footer .follow-us li {
+  position: relative;
+}
+footer .follow-us li:not(:last-child):after {
+  content: '';
+  position: absolute;
+  left: 3.2rem;
+  top: 0.1rem;
+  width: 0.1rem;
+  height: 2rem;
+  background: white;
+}
+footer .services {
+  padding: 0 7.2rem;
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+footer .services ul {
+  columns: 2;
+  column-gap: 6.6rem;
+}
+footer .services ul,
+footer .sitemap ul {
+  margin-top: 4.2rem;
+}
+footer .sitemap {
+  padding-left: 6.6rem;
+}
+.copyright {
+  background: #1a2f40;
+  height: 4rem;
+  color: #fff;
+  font-family: Montserrat-400;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  display: grid;
+  place-content: center;
+}
+.button {
+  display: grid;
+  place-content: center;
+  width: 21.2rem;
+  height: 4.3rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-family: Lexend-500;
+  font-size: 1.6rem;
+  line-height: 4.15rem;
+}
+.button.orange {
+  background: #ff8200;
+  border: 1px solid #ff8200;
+}
+.button.white {
+  background: transparent;
+  color: #131313;
+  border: 1px solid #131313;
+}
+.guarantee {
+  background: #f6f6f6;
+  padding: 18rem 1.5rem 0;
+  position: relative;
+  height: 24.2rem;
+}
+.guarantee img {
+  max-width: 25.5rem;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -4.5rem;
+}
+.guarantee p {
+  text-align: center;
+  font-family: Montserrat-600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.reviews {
+  background: #243a4b;
+  padding: 5.6rem 1.5rem;
+}
+.reviews .container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.reviews h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Lexend-300;
+  font-size: 4.8rem;
+  line-height: 4.75rem;
+}
+.reviews h2 span {
+  font-family: Lexend-600;
+}
+.reviews h2 + p {
+  color: #fff;
+  font-family: Montserrat-400;
+  font-size: 1.6rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  opacity: 0.7;
+}
+.reviews .button + p {
+  color: #fff;
+  font-family: Montserrat-600;
+  font-size: 1.6rem;
+  margin-top: 3.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+.reviews .wrap {
+  position: relative;
+}
+.reviews .swiper {
+  margin-top: 4.6rem;
+  height: 35.5rem;
+}
+.reviews .swiper-slide {
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.08);
+  height: 100%;
+  box-sizing: border-box;
+  background: #253e52;
+  border: 1px solid #182d3e;
+}
+.reviews .swiper-slide p {
+  font-family: Montserrat-400;
+  font-size: 1.4rem;
+  color: #fff;
+  max-width: 38.3rem;
+  line-height: 2.2rem;
+  margin: 2.4rem auto 0;
+  text-align: justify;
+}
+.reviews .swiper-slide .rating + p {
+  position: relative;
+}
+.reviews .swiper-slide .rating + p:before {
+  position: absolute;
+  top: -1.9rem;
+  left: -1.7rem;
+  content: '';
+  background: url(../../img/brackets_reviews.webp) no-repeat center center / contain;
+  width: 4.3rem;
+  height: 3.8rem;
+}
+.reviews .swiper-slide h4 {
+  font-family: Montserrat-600;
+  color: #ff8200;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: center;
+  margin: 0.4rem auto 0;
+}
+.reviews .swiper-slide h4 + p {
+  width: fit-content;
+  margin: 0.1rem auto 0;
+}
+.reviews .rating {
+  width: 16rem;
+  margin: 1.9rem auto 0;
+}
+.reviews .photo_review {
+  width: 4.4rem;
+  margin: auto;
+}
+.reviews .info {
+  position: absolute;
+  bottom: 1.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.reviews .logos {
+  margin: 3.36rem auto 0;
+  width: 34.5rem;
+  height: 4.13rem;
+  display: flex;
+  column-gap: 4.9rem;
+}
+.reviews .button {
+  margin: 6.5rem auto 0;
+}
+.reviews .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -4.7rem;
+}
+.reviews .swiper-button-prev:after,
+.reviews .swiper-button-next:after {
+  content: '';
+  background: url(../../img/slider_arrow.webp) no-repeat center center / contain;
+  width: 1.4rem;
+  height: 4.1rem;
+  position: absolute;
+}
+.reviews .swiper-button-prev:after {
+  left: -4.6rem;
+}
+.reviews .swiper-button-next:after {
+  transform: rotate(180deg);
+  right: -4.6rem;
+}
+.reviews .swiper-pagination-bullet {
+  width: 1rem;
+  height: 1rem;
+  background: transparent;
+  border: 0.1rem solid #fff;
+  opacity: 1;
+}
+.reviews .swiper-pagination-bullet-active {
+  background: #ff8200;
+  border: 0.1rem solid #ff8200;
+}
+.guarantee {
+  margin-top: 11.9rem;
+}
+.kitchen-photos {
+  padding: 5.3rem 1.5rem 6.8rem;
+}
+.kitchen-photos .container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.kitchen-photos .container p {
+  font-family: Montserrat-400;
+  font-size: 1.6rem;
+  line-height: 2.95rem;
+  color: #131313;
+}
+.kitchen-photos .container p span {
+  font-family: Montserrat-500;
+}
+.kitchen-photos h3 {
+  margin-top: 7.2rem;
+  font-family: Montserrat-700;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+  color: #131313;
+}
+.kitchen-photos h3 + span {
+  display: inline-block;
+  margin-top: 1.3rem;
+  font-family: Montserrat-500;
+  font-size: 1.4rem;
+  color: #6f6f73;
+}
+.kitchen-photos .card-container {
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 2rem;
+  row-gap: 6.8rem;
+}
+.kitchen-photos .card {
+  cursor: pointer;
+  width: 34.5rem;
+  text-align: center;
+}
+.kitchen-photos .card h4 {
+  font-family: Montserrat-500;
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+  margin-top: 1.2rem;
+}
+.kitchen-photos .card p {
+  font-family: Montserrat-400;
+  font-size: 1.6rem;
+  line-height: 1.75rem;
+}
+.kitchen-photos .button {
+  cursor: pointer;
+  margin: 5.1rem auto 0;
+}
+/*# sourceMappingURL=cabinets.css.map */
