@@ -838,6 +838,8 @@ footer .footer-menu a {
   font-family: Montserrat-400;
   font-size: 1.6rem;
   line-height: 3.2rem;
+  display: flex;
+  align-items: center;
 }
 footer .follow-us {
   margin-top: 3.6rem;
@@ -1065,7 +1067,7 @@ footer .sitemap {
   background: url(../../img/cases/Card9.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(10) .top {
-  background: url(../../img/cases/Card10.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card10.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(11) .top {
   background: url(../../img/cases/Card11.webp) no-repeat center center / cover;
