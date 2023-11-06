@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
 	}
 	
 	new Swiper('.swiper', {
-		direction: 'horizontal',
 		loop: true,
+		autoplay: true,
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true,
@@ -37,8 +37,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
 		},
 		breakpoints: {
 			320: {
-				slidesPerView: 1,
-				spaceBetween: 12
+				slidesPerView: 1.37,
+				spaceBetween: 12,
+				navigation: false,
+				centeredSlides: true,
 			},
 			769: {
 				slidesPerView: 3,

@@ -475,7 +475,7 @@ footer .sitemap {
 }
 .reviews {
   background: #243a4b;
-  padding: 5.6rem 1.5rem;
+  padding: 5.6rem 1.6rem;
 }
 .reviews .container {
   max-width: 144rem;
@@ -503,7 +503,7 @@ footer .sitemap {
   color: #fff;
   font-family: Montserrat-600;
   font-size: 1.6rem;
-  margin-top: 3.2rem;
+  margin-top: 6rem;
   line-height: 2.2rem;
   text-align: center;
 }
@@ -520,6 +520,7 @@ footer .sitemap {
   box-sizing: border-box;
   background: #253e52;
   border: 1px solid #182d3e;
+  border-radius: 0.8rem;
 }
 .reviews .swiper-slide p {
   font-family: Montserrat-400;
@@ -553,6 +554,7 @@ footer .sitemap {
 .reviews .swiper-slide h4 + p {
   width: fit-content;
   margin: 0.1rem auto 0;
+  white-space: nowrap;
 }
 .reviews .rating {
   width: 16rem;
@@ -578,9 +580,6 @@ footer .sitemap {
 .reviews .button {
   margin: 6.5rem auto 0;
 }
-.reviews .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -4.7rem;
-}
 .reviews .swiper-button-prev:after,
 .reviews .swiper-button-next:after {
   content: '';
@@ -596,16 +595,82 @@ footer .sitemap {
   transform: rotate(180deg);
   right: -4.6rem;
 }
+.reviews .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -4.7rem;
+}
 .reviews .swiper-pagination-bullet {
   width: 1rem;
   height: 1rem;
   background: transparent;
-  border: 0.1rem solid #fff;
+  border: 0.1rem solid rgba(255, 255, 255, 0.7);
   opacity: 1;
+  margin: 0 0.6rem 0 0 !important;
 }
 .reviews .swiper-pagination-bullet-active {
   background: #ff8200;
   border: 0.1rem solid #ff8200;
+}
+@media (max-width: 768px) {
+  .reviews {
+    padding: 3rem 0 2.7rem;
+  }
+  .reviews h2 {
+    font-family: Lexend-300;
+    font-size: 2.4rem;
+    line-height: 1rem;
+  }
+  .reviews h2 + p {
+    font-size: 1.6rem;
+    margin: 1.6rem auto 0;
+    line-height: 2.2rem;
+    opacity: 1;
+    max-width: calc(100% - 3.2rem);
+  }
+  .reviews .rating {
+    margin: 1.6rem auto 0;
+  }
+  .reviews .swiper {
+    margin-top: 1.7rem;
+    height: 42.4rem;
+  }
+  .reviews .swiper-slide {
+    border: none;
+  }
+  .reviews .swiper-slide p {
+    margin: 2rem auto 0;
+    max-width: 23.4rem;
+  }
+  .reviews .swiper-slide h4 {
+    margin: 0 auto;
+  }
+  .reviews .swiper-slide h4 + p {
+    margin: 0 auto;
+  }
+  .reviews .swiper-pagination-bullet {
+    border: 0.1rem solid rgba(255, 255, 255, 0.54);
+  }
+  .reviews .swiper-pagination-bullet-active {
+    background: #ff8200;
+    border: 0.1rem solid #ff8200;
+  }
+  .reviews .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -2.7rem;
+  }
+  .reviews .button {
+    margin-top: 5rem;
+  }
+  .reviews .button + p {
+    margin-top: 5.6rem;
+    font-family: Montserrat-500;
+  }
+  .reviews .logos {
+    margin: 3rem auto 0;
+    max-width: calc(100% - 8rem);
+    column-gap: 3.2rem;
+  }
+  .reviews .logos a:first-child img {
+    width: 12.1rem;
+  }
 }
 .guarantee {
   margin-top: 11.9rem;

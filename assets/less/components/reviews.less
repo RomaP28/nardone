@@ -1,6 +1,6 @@
 .reviews{
   background: @blue-color;
-  padding: 5.6rem 1.5rem;
+  padding: 5.6rem 1.6rem;
 
   .container{
     max-width: 144rem;
@@ -31,7 +31,7 @@
     color: #fff;
     font-family: Montserrat-600;
     font-size: 1.6rem;
-    margin-top: 3.2rem;
+    margin-top: 6rem;
     line-height: 2.2rem;
     text-align: center;
   }
@@ -51,6 +51,7 @@
     box-sizing: border-box;
     background: rgba(37, 62, 82, 1);
     border: 1px solid rgba(24, 45, 62, 1);
+    border-radius: .8rem;
 
     p{
       font-family: Montserrat-400;
@@ -87,6 +88,7 @@
     h4+p{
       width: fit-content;
       margin: .1rem auto 0;
+      white-space: nowrap;
     }
 
   }
@@ -120,10 +122,6 @@
     margin: 6.5rem auto 0;
   }
 
-
-  .swiper-pagination-bullets.swiper-pagination-horizontal{
-    bottom: -4.7rem;
-  }
   .swiper-button-prev:after,
   .swiper-button-next:after{
     content: '';
@@ -142,16 +140,96 @@
     right: -4.6rem;
   }
 
+  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: -4.7rem;
+  }
   .swiper-pagination-bullet{
     width: 1rem;
     height: 1rem;
     background: transparent;
-    border: .1rem solid #fff;
+    border: .1rem solid rgba(255, 255, 255, 0.7);
     opacity: 1;
-  }
+    margin: 0 .6rem 0 0 !important;
 
-  .swiper-pagination-bullet-active{
-    background: @orange-color;
-    border: .1rem solid @orange-color;
+    &-active{
+      background: @orange-color;
+      border: .1rem solid @orange-color;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .reviews {
+    padding: 3rem 0 2.7rem;
+
+    h2 {
+      font-family: Lexend-300;
+      font-size: 2.4rem;
+      line-height: 1rem;
+    }
+
+    h2+p{
+      font-size: 1.6rem;
+      margin: 1.6rem auto 0;
+      line-height: 2.2rem;
+      opacity: 1;
+      max-width: calc(100% - 3.2rem);
+    }
+
+    .rating{
+      margin: 1.6rem auto 0;
+    }
+
+    .swiper{
+      margin-top: 1.7rem;
+      height: 42.4rem;
+
+      &-slide{
+        //max-width: 28.1rem;
+        border: none;
+        p{
+          margin: 2rem auto 0;
+          max-width: 23.4rem;
+        }
+
+        h4{
+          margin: 0 auto;
+          & + p{
+            margin: 0 auto;
+          }
+        }
+      }
+      &-pagination-bullet{
+        border: .1rem solid rgba(255, 255, 255, 0.54);
+        &-active{
+          background: @orange-color;
+          border: .1rem solid @orange-color;
+        }
+
+      }
+      &-pagination-bullets.swiper-pagination-horizontal{
+        bottom: -2.7rem;
+      }
+    }
+
+    .button{
+      margin-top: 5rem;
+
+      & + p {
+        margin-top: 5.6rem;
+        font-family: Montserrat-500;
+      }
+    }
+
+    .logos{
+      margin: 3rem auto 0;
+      max-width: calc(100% - 8rem);
+      column-gap: 3.2rem;
+
+      a:first-child img{
+        width: 12.1rem;
+      }
+    }
   }
 }
