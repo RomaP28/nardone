@@ -35,13 +35,11 @@
                 </ul>
             </div>
             <div class="phone">
-                <li>
-                    <a href="tel: (407) 558-2712">
-                        <img src="../assets/img/phone_ico.webp" class="desktop" alt="phone">
-                        <img src="../assets/img/phone_mobile.webp" class="mobile" alt="phone">
-                        (407) 558-2712
-                    </a>
-                </li>
+                <a href="tel: (407) 558-2712">
+                    <img src="../assets/img/phone_ico.webp" class="desktop" alt="phone">
+                    <img src="../assets/img/phone_mobile.webp" class="mobile" alt="phone">
+                    (407) 558-2712
+                </a>
             </div>
         </div>
     </nav>
@@ -54,62 +52,62 @@
             <h3>Check out some photos of Kitchen Cabinets restored or made by us:</h3>
             <span>Click on the image to zoom in</span>
             <div class="card-container">
-                <div class="card">
+                <div class="card" data-index="1">
                     <img src="../assets/img/kitchen-cabinets/image1.webp" alt="cabinet">
                     <h4>Restoration</h4>
                     <p>Sonia and Rick's House</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="2">
                     <img src="../assets/img/kitchen-cabinets/image2.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Peter's House</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="3">
                     <img src="../assets/img/kitchen-cabinets/image3.webp" alt="cabinet">
                     <h4>Door Fixing</h4>
                     <p>Marcos’ House</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="4">
                     <img src="../assets/img/kitchen-cabinets/image4.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Sarah's Apartment</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="5">
                     <img src="../assets/img/kitchen-cabinets/image5.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Lucas’ Studio</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="6">
                     <img src="../assets/img/kitchen-cabinets/image6.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Jenny's Apartment</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="7">
                     <img src="../assets/img/kitchen-cabinets/image7.webp" alt="cabinet">
                     <h4>Restoration</h4>
                     <p>Eric's House</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="8">
                     <img src="../assets/img/kitchen-cabinets/image8.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Angela's Apartment</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="9">
                     <img src="../assets/img/kitchen-cabinets/image5.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Lucas’ Studio</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="10">
                     <img src="../assets/img/kitchen-cabinets/image6.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Jenny's Apartment</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="11">
                     <img src="../assets/img/kitchen-cabinets/image7.webp" alt="cabinet">
                     <h4>Restoration</h4>
                     <p>Eric's House</p>
                 </div>
-                <div class="card">
+                <div class="card" data-index="12">
                     <img src="../assets/img/kitchen-cabinets/image8.webp" alt="cabinet">
                     <h4>Custom Made</h4>
                     <p>Angela's Apartment</p>
@@ -230,9 +228,26 @@
     <div class="copyright">
         <p>Nardone Home Repair & Restoration | 2023</p>
     </div>
+
+    <div class="modal hidden" data-modal="cabinets">
+        <div class="window">
+            <img src="" alt="full view">
+        </div>
+    </div>
 </footer>
 <script src="../assets/js/swiper-bundle.min.js"></script>
 <script src="../assets/js/script.js"></script>
 <script src="../assets/js/load-more.js"></script>
 </body>
 </html>
+
+<script>
+	const cards = document.querySelectorAll('.card');
+	const modal = document.querySelector('.modal');
+	cards.length > 0 && cards.forEach(el=>el.addEventListener('click', e => {
+	    modal.classList.remove('hidden');
+	    modal.querySelector('img').setAttribute('src', `../assets/img/kitchen-cabinets/image${e.target.closest('.card').dataset.index}.webp`)
+	}));
+	modal.addEventListener('click', () => modal.classList.add('hidden'));
+	// modal.addEventListener('click', e => e.target.dataset.modal === 'cabinets' && modal.classList.add('hidden'))
+</script>

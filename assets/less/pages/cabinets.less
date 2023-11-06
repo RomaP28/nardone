@@ -1,23 +1,24 @@
 @import "../base/base";
 @import "../components/header";
-@import "../components/footer";
 @import "../components/button";
 @import "../components/guarantee";
 @import "../components/reviews";
+@import "../components/modal";
+@import "../components/footer";
 
 .guarantee{
   margin-top: 11.9rem;
 }
 
 .kitchen-photos{
-  padding: 5.3rem 1.5rem 6.8rem;
+  padding: 5.3rem 1.6rem 6.8rem;
 
   .container{
     max-width: 144rem;
     margin: 0 auto;
 
     p{
-      font-family: Montserrat-400;
+      font-family: Montserrat-300;
       font-size: 1.6rem;
       line-height: 2.95rem;
       color: rgba(19, 19, 19, 1);
@@ -77,4 +78,35 @@
     margin: 5.1rem auto 0;
   }
 
+}
+
+@media(max-width: 768px) {
+  .kitchen-photos{
+    padding: 3.2rem 1.6rem 6.8rem;
+
+    .container{
+      p{
+        line-height: 2.2rem;
+      }
+    }
+
+    h3{
+      margin-top: 3.2rem;
+      font-size: 1.6rem;
+
+      & + span {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    .card-container{
+      column-gap: 1.2rem;
+      row-gap: 3.3rem;
+    }
+
+    .card{
+      width: 17.3rem;
+    }
+  }
 }
