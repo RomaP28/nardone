@@ -432,6 +432,34 @@ footer .sitemap {
   display: grid;
   place-content: center;
 }
+@media (max-width: 768px) {
+  footer {
+    padding: 3.6rem 0 0;
+  }
+  footer .container {
+    display: block;
+    padding: 0 1.6rem;
+  }
+  footer .logo {
+    width: 18.7rem;
+    display: block;
+    margin: 0 auto;
+  }
+  footer .footer-menu {
+    padding-right: unset;
+    border: none;
+  }
+  footer .services {
+    padding: 0;
+    border: none;
+  }
+  footer .services ul {
+    columns: 1;
+  }
+  footer .sitemap {
+    padding-left: 0;
+  }
+}
 .button {
   display: grid;
   place-content: center;
@@ -472,6 +500,14 @@ footer .sitemap {
   font-family: Montserrat-600;
   font-size: 1.6rem;
   line-height: 2.2rem;
+}
+@media (max-width: 768px) {
+  .guarantee {
+    height: 28.2rem;
+  }
+  .guarantee p {
+    max-width: 35.8rem;
+  }
 }
 .reviews {
   background: #243a4b;
@@ -613,6 +649,7 @@ footer .sitemap {
 @media (max-width: 768px) {
   .reviews {
     padding: 3rem 0 2.7rem;
+    overflow: hidden;
   }
   .reviews h2 {
     font-family: Lexend-300;
