@@ -13,6 +13,10 @@ footer{
     width: 23.3rem;
   }
 
+  .mobile{
+    display: none;
+  }
+
   h3 {
     color: #fff;
     margin-top: 3.4rem;
@@ -113,13 +117,21 @@ footer{
     padding: 3.6rem 0 0;
     .container{
       display: block;
-      padding: 0 1.6rem;
+      padding: 0 1.6rem 2.5rem;
     }
 
     .logo{
       width: 18.7rem;
       display: block;
       margin: 0 auto;
+
+      &.bottom{
+        width: 14.3rem;
+        margin-top: 6.8rem;
+      }
+    }
+    .mobile{
+      display: initial;
     }
 
     h3{
@@ -174,7 +186,6 @@ footer{
       h3{
         margin-top: 3.7rem;
       }
-
     }
   }
 }
