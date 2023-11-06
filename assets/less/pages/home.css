@@ -797,7 +797,7 @@ footer .sitemap {
   border: 0.1rem solid #ff8200;
 }
 .repairs {
-  padding: 7.2rem 1.5rem;
+  padding: 7.2rem 1.6rem;
 }
 .repairs .container {
   max-width: 144rem;
@@ -847,7 +847,7 @@ footer .sitemap {
   height: 7.7rem;
 }
 .cases {
-  padding: 6.4rem 1.5rem;
+  padding: 6.4rem 1.6rem;
   background: #f6f6f6;
 }
 .cases .container {
@@ -886,40 +886,40 @@ footer .sitemap {
   color: #fff;
 }
 .cases .card:nth-child(1) .top {
-  background: url(../../img/cases/Card1.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card1.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(2) .top {
-  background: url(../../img/cases/Card2.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card2.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(3) .top {
-  background: url(../../img/cases/Card3.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card3.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(4) .top {
-  background: url(../../img/cases/Card4.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card4.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(5) .top {
-  background: url(../../img/cases/Card5.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card5.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(6) .top {
-  background: url(../../img/cases/Card6.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card6.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(7) .top {
-  background: url(../../img/cases/Card7.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card7.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(8) .top {
-  background: url(../../img/cases/Card8.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card8.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(9) .top {
-  background: url(../../img/cases/Card9.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card9.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(10) .top {
   background: url(../../img/cases/Card10.webp) no-repeat center center / contain;
 }
 .cases .card:nth-child(11) .top {
-  background: url(../../img/cases/Card11.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card11.webp) no-repeat center center / cover;
 }
 .cases .card:nth-child(12) .top {
-  background: url(../../img/cases/Card12.webp) no-repeat center center / contain;
+  background: url(../../img/cases/Card12.webp) no-repeat center center / cover;
 }
 .areas {
   display: flex;
@@ -1035,6 +1035,55 @@ footer .sitemap {
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin-top: 2.4rem;
+  }
+  .repairs .bottom-content {
+    flex-direction: column-reverse;
+    padding-top: 15.2rem;
+  }
+  .repairs .bottom-content h2 {
+    position: absolute;
+    max-width: 24.5rem;
+    top: 5rem;
+  }
+  .repairs .bottom-content h2:before {
+    top: -1.6rem;
+    left: -1.1rem;
+    width: 3.8rem;
+    height: 4.3rem;
+  }
+  .repairs .bottom-content h2 br {
+    display: none;
+  }
+  .repairs .bottom-content p:first-of-type {
+    margin-top: 1.8rem;
+  }
+  .repairs img {
+    width: 101%;
+    transform: translateX(-0.6rem);
+  }
+  .cases {
+    padding: 2.2rem 1.6rem 3.1rem;
+  }
+  .cases .container {
+    display: block;
+  }
+  .cases h3 {
+    font-size: 3.2rem;
+  }
+  .cases .card {
+    display: block;
+    width: 100%;
+  }
+  .cases .card:not(:first-child) {
+    margin-top: 3.2rem;
+  }
+  .cases .card .top {
+    height: 19.7rem;
+  }
+  .cases .card p {
+    margin-top: 1.3rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
   }
 }
 /*# sourceMappingURL=home.css.map */
