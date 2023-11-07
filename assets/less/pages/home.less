@@ -168,11 +168,16 @@
 }
 
 .areas{
-  display: flex;
+
+  .container{
+    max-width: 192rem;
+    margin: 0 auto;
+    display: flex;
+  }
 
   .map{
-    width: 100%;
-    max-width: 96.4rem;
+    //width: 100%;
+    width: 96.4rem;
     height: 68.2rem;
   }
 
@@ -369,10 +374,14 @@
   }
 
   .areas {
-    flex-direction: column-reverse;
+
+    .container{
+      flex-direction: column-reverse;
+    }
 
     .map{
       margin-top: 4.5rem;
+      width: 39rem;
       height: auto;
       //img{
       //  height: 46rem;
@@ -437,6 +446,11 @@
 
     .top {
       flex-direction: column;
+    }
+
+    img{
+      max-width: 36rem;
+      max-height: 22.6rem;
     }
 
     h2 {

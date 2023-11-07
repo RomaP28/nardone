@@ -1075,12 +1075,13 @@ footer .sitemap {
 .cases .card:nth-child(12) .top {
   background: url(../../img/cases/Card12.webp) no-repeat center center / cover;
 }
-.areas {
+.areas .container {
+  max-width: 192rem;
+  margin: 0 auto;
   display: flex;
 }
 .areas .map {
-  width: 100%;
-  max-width: 96.4rem;
+  width: 96.4rem;
   height: 68.2rem;
 }
 .areas .mobile {
@@ -1243,11 +1244,12 @@ footer .sitemap {
     font-size: 1.4rem;
     line-height: 2.2rem;
   }
-  .areas {
+  .areas .container {
     flex-direction: column-reverse;
   }
   .areas .map {
     margin-top: 4.5rem;
+    width: 39rem;
     height: auto;
   }
   .areas .desktop {
@@ -1297,6 +1299,10 @@ footer .sitemap {
   }
   .about .top {
     flex-direction: column;
+  }
+  .about img {
+    max-width: 36rem;
+    max-height: 22.6rem;
   }
   .about h2 {
     position: absolute;

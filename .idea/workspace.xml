@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4451c651-b326-43df-82bc-50613ecd9487" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/map_mobile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/map_mobile2.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css.map" afterDir="false" />
@@ -21,10 +22,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
+            <state relative-caret-position="185">
+              <caret line="222" column="18" lean-forward="true" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
               <folding>
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -33,11 +35,12 @@
       <file leaf-file-name="home.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="376" column="8" lean-forward="true" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="8" />
+            <state relative-caret-position="230">
+              <caret line="174" column="18" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
               <folding>
                 <element signature="e#237#1142#0" />
                 <element signature="e#1150#3397#0" />
+                <element signature="e#6379#7190#0" />
               </folding>
             </state>
           </provider>
@@ -139,14 +142,7 @@
               <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="nardone-dev" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nardone-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
@@ -225,12 +221,12 @@
       <workItem from="1699277155607" duration="439000" />
       <workItem from="1699277765709" duration="6253000" />
       <workItem from="1699295521124" duration="1369000" />
-      <workItem from="1699339969421" duration="701000" />
+      <workItem from="1699339969421" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73662000" />
+    <option name="totallyTimeSpent" value="74454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="934" extended-state="0" />
@@ -587,21 +583,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
+        <state relative-caret-position="185">
+          <caret line="222" column="18" lean-forward="true" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
           <folding>
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="376" column="8" lean-forward="true" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="8" />
+        <state relative-caret-position="230">
+          <caret line="174" column="18" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
           <folding>
             <element signature="e#237#1142#0" />
             <element signature="e#1150#3397#0" />
+            <element signature="e#6379#7190#0" />
           </folding>
         </state>
       </provider>
