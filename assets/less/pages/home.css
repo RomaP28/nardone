@@ -1095,9 +1095,6 @@ footer .sitemap {
   width: 96.4rem;
   height: 68.2rem;
 }
-.areas .mobile {
-  display: none;
-}
 .areas .content {
   width: 95.6rem;
 }
@@ -1149,9 +1146,6 @@ footer .sitemap {
 .about .container {
   max-width: 144rem;
   margin: 0 auto;
-}
-.about .mobile {
-  display: none;
 }
 .about .top {
   display: flex;

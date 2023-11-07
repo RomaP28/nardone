@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4451c651-b326-43df-82bc-50613ecd9487" name="Default" comment="" />
+    <list default="true" id="4451c651-b326-43df-82bc-50613ecd9487" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.less" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +18,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="81" column="39" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+            <state relative-caret-position="220">
+              <caret line="223" column="18" lean-forward="true" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
               <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -31,8 +37,8 @@
       <file leaf-file-name="home.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="357" column="29" selection-start-line="357" selection-start-column="29" selection-end-line="357" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="462" column="14" selection-start-line="462" selection-start-column="7" selection-end-line="462" selection-end-column="14" />
               <folding>
                 <element signature="e#1150#3397#0" />
                 <element signature="e#3405#4385#0" />
@@ -54,7 +60,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;a class=&quot;card&quot; href=&quot;#&quot;&gt;</find>
+      <find />
       <find>letters</find>
       <find>quantity</find>
       <find>word_wrap</find>
@@ -85,8 +91,8 @@
         <option value="$PROJECT_DIR$/assets/less/components/footer.less" />
         <option value="$PROJECT_DIR$/assets/less/components/word-animation.less" />
         <option value="$PROJECT_DIR$/pages/cabinets.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/less/base/base.less" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/less/pages/home.less" />
       </list>
     </option>
@@ -229,12 +235,12 @@
       <workItem from="1699277155607" duration="439000" />
       <workItem from="1699277765709" duration="6253000" />
       <workItem from="1699295521124" duration="1369000" />
-      <workItem from="1699339969421" duration="3308000" />
+      <workItem from="1699339969421" duration="3583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76269000" />
+    <option name="totallyTimeSpent" value="76544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="934" extended-state="0" />
@@ -591,9 +597,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="81" column="39" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+        <state relative-caret-position="220">
+          <caret line="223" column="18" lean-forward="true" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
           <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -606,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="357" column="29" selection-start-line="357" selection-start-column="29" selection-end-line="357" selection-end-column="29" />
+        <state relative-caret-position="216">
+          <caret line="462" column="14" selection-start-line="462" selection-start-column="7" selection-end-line="462" selection-end-column="14" />
           <folding>
             <element signature="e#1150#3397#0" />
             <element signature="e#3405#4385#0" />
