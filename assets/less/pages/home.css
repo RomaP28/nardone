@@ -1139,6 +1139,9 @@ footer .sitemap {
   max-width: 144rem;
   margin: 0 auto;
 }
+.about .mobile {
+  display: none;
+}
 .about .top {
   display: flex;
   column-gap: 2rem;
@@ -1299,6 +1302,12 @@ footer .sitemap {
   }
   .about .top {
     flex-direction: column;
+  }
+  .about .desktop {
+    display: none;
+  }
+  .about .mobile {
+    display: initial;
   }
   .about img {
     max-width: 36rem;
