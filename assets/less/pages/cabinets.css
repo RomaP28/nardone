@@ -476,7 +476,7 @@ header .bottom {
   width: 4.3rem;
   height: 3.8rem;
 }
-.reviews .swiper-slide h4 {
+.reviews .swiper-slide h3 {
   font-family: Montserrat-600;
   color: #ff8200;
   font-size: 1.6rem;
@@ -484,7 +484,7 @@ header .bottom {
   text-align: center;
   margin: 0.4rem auto 0;
 }
-.reviews .swiper-slide h4 + p {
+.reviews .swiper-slide h3 + p {
   width: fit-content;
   margin: 0.1rem auto 0;
   white-space: nowrap;
@@ -574,10 +574,10 @@ header .bottom {
     margin: 2rem auto 0;
     max-width: 23.4rem;
   }
-  .reviews .swiper-slide h4 {
+  .reviews .swiper-slide h3 {
     margin: 0 auto;
   }
-  .reviews .swiper-slide h4 + p {
+  .reviews .swiper-slide h3 + p {
     margin: 0 auto;
   }
   .reviews .swiper-pagination-bullet {
