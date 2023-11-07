@@ -48,9 +48,6 @@ header{
     align-items: center;
   }
 
-  .mobile{
-    display: none;
-  }
   .social{
     width: 6.7rem;
     margin-top: .3rem;
@@ -80,9 +77,12 @@ header{
     }
   }
 
-  .logo{
-    width: 14.4rem;
-    margin: 0 3rem;
+  .logo {
+      margin: 0 3rem;
+    img {
+      width: 14.4rem;
+      height: 6.94rem;
+    }
   }
 
   .active{
@@ -123,14 +123,6 @@ header{
 
 @media(max-width: 768px) {
   header{
-
-    .desktop{
-      display: none;
-    }
-
-    .mobile{
-      display: initial;
-    }
 
     .burger{
       position: relative;
@@ -232,20 +224,19 @@ header{
           line-height: 2.9rem;
         }
       }
-      .logo{
-        display: none;
-      }
-
       &.open {
         transition: top .3s ease-in-out;
         top: 0;
       }
     }
-    .logo{
-      width: 8.293rem;
-      height: 4rem;
-      margin: 0 0 0 2.4rem;
+
+    .logo {
       z-index: 2;
+      margin: 0 0 0 2.4rem;
+      img {
+        width: 8.293rem;
+        height: 4rem;
+      }
     }
 
     .phone{

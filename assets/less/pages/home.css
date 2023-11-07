@@ -183,9 +183,6 @@ header ul {
   justify-content: space-between;
   align-items: center;
 }
-header .mobile {
-  display: none;
-}
 header .social {
   width: 6.7rem;
   margin-top: 0.3rem;
@@ -212,8 +209,11 @@ header .menu ul {
   column-gap: 6.4rem;
 }
 header .logo {
-  width: 14.4rem;
   margin: 0 3rem;
+}
+header .logo img {
+  width: 14.4rem;
+  height: 6.94rem;
 }
 header .active {
   border-bottom: 1px solid #ff8200;
@@ -245,12 +245,6 @@ header .bottom {
   column-gap: 1.7rem;
 }
 @media (max-width: 768px) {
-  header .desktop {
-    display: none;
-  }
-  header .mobile {
-    display: initial;
-  }
   header .burger {
     position: relative;
     width: 2.4rem;
@@ -342,18 +336,17 @@ header .bottom {
     font-size: 2.2rem;
     line-height: 2.9rem;
   }
-  header .menu .logo {
-    display: none;
-  }
   header .menu.open {
     transition: top 0.3s ease-in-out;
     top: 0;
   }
   header .logo {
+    z-index: 2;
+    margin: 0 0 0 2.4rem;
+  }
+  header .logo img {
     width: 8.293rem;
     height: 4rem;
-    margin: 0 0 0 2.4rem;
-    z-index: 2;
   }
   header .phone {
     z-index: 2;
@@ -807,9 +800,7 @@ footer .container {
 }
 footer .logo {
   width: 23.3rem;
-}
-footer .mobile {
-  display: none;
+  height: 10.75rem;
 }
 footer h3 {
   color: #fff;
@@ -906,15 +897,14 @@ footer .sitemap {
   }
   footer .logo {
     width: 18.7rem;
+    height: 9.06rem;
     display: block;
     margin: 0 auto;
   }
   footer .logo.bottom {
     width: 14.3rem;
+    height: 6.94rem;
     margin-top: 6.8rem;
-  }
-  footer .mobile {
-    display: initial;
   }
   footer h3 {
     margin-top: 5.93rem;
