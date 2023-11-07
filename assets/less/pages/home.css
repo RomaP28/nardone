@@ -1083,6 +1083,9 @@ footer .sitemap {
   max-width: 96.4rem;
   height: 68.2rem;
 }
+.areas .mobile {
+  display: none;
+}
 .areas .content {
   width: 95.6rem;
 }
@@ -1247,9 +1250,11 @@ footer .sitemap {
     margin-top: 4.5rem;
     height: auto;
   }
-  .areas .map img {
-    height: 46rem;
-    object-fit: cover;
+  .areas .desktop {
+    display: none;
+  }
+  .areas .mobile {
+    display: initial;
   }
   .areas .content {
     padding: 4rem 0 0;
