@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4451c651-b326-43df-82bc-50613ecd9487" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/components/reviews.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/components/reviews.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/cabinets.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/cabinets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/cabinets.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/cabinets.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css.map" afterDir="false" />
-    </list>
+    <list default="true" id="4451c651-b326-43df-82bc-50613ecd9487" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +14,8 @@
       <file leaf-file-name="reviews.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/less/components/reviews.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -229,16 +222,15 @@
       <workItem from="1699277765709" duration="6253000" />
       <workItem from="1699295521124" duration="1369000" />
       <workItem from="1699339969421" duration="5455000" />
-      <workItem from="1699350760070" duration="701000" />
+      <workItem from="1699350760070" duration="951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79117000" />
+    <option name="totallyTimeSpent" value="79367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="934" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -606,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/components/reviews.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        <state relative-caret-position="304">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
         </state>
       </provider>
     </entry>
