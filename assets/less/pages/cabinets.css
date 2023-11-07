@@ -106,6 +106,17 @@ ul li {
 .orange {
   color: #ff8200;
 }
+.mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: initial;
+  }
+}
 header {
   width: 100%;
 }
