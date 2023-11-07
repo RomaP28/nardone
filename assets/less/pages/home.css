@@ -1266,12 +1266,6 @@ footer .sitemap {
     width: 39rem;
     height: auto;
   }
-  .areas .desktop {
-    display: none;
-  }
-  .areas .mobile {
-    display: initial;
-  }
   .areas .content {
     padding: 4rem 0 0;
     width: 100%;
@@ -1313,12 +1307,6 @@ footer .sitemap {
   }
   .about .top {
     flex-direction: column;
-  }
-  .about .desktop {
-    display: none;
-  }
-  .about .mobile {
-    display: initial;
   }
   .about img {
     width: 35.8rem;
