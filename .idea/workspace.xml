@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4451c651-b326-43df-82bc-50613ecd9487" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/yelp2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/yelp3.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/components/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/components/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/cabinets.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/cabinets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/cabinets.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/cabinets.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/pages/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/pages/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +16,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/less/components/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="254" column="10" selection-start-line="254" selection-start-column="10" selection-end-line="254" selection-end-column="10" />
+            <state relative-caret-position="539">
+              <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="306" column="33" lean-forward="true" selection-start-line="306" selection-start-column="33" selection-end-line="306" selection-end-column="33" />
+              <folding>
+                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,10 +81,10 @@
         <option value="$PROJECT_DIR$/assets/less/base/base.less" />
         <option value="$PROJECT_DIR$/pages/cabinets.html" />
         <option value="$PROJECT_DIR$/assets/less/components/footer.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/less/pages/home.less" />
         <option value="$PROJECT_DIR$/assets/less/components/reviews.less" />
         <option value="$PROJECT_DIR$/assets/less/components/header.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -95,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +121,12 @@
               <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="nardone-dev" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nardone-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
@@ -148,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,16 +181,16 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img/kitchen-cabinets" />
-      <recent name="$PROJECT_DIR$/assets/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/assets/img/kitchen-cabinets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/slider_arrow" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/kitchen-cabinets" />
+      <recent name="$PROJECT_DIR$/assets/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,24 +234,26 @@
       <workItem from="1699277765709" duration="6253000" />
       <workItem from="1699295521124" duration="1369000" />
       <workItem from="1699339969421" duration="5455000" />
-      <workItem from="1699350760070" duration="1227000" />
+      <workItem from="1699350760070" duration="1458000" />
+      <workItem from="1699352378082" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79643000" />
+    <option name="totallyTimeSpent" value="80021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="934" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15523465" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1299639" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1299639" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -254,17 +277,17 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1299639" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32934132" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,21 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/components/reviews.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -577,20 +585,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="375" column="5" lean-forward="true" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
-          <folding>
-            <element signature="e#237#1159#0" />
-            <element signature="e#1167#3414#0" />
-            <element signature="e#4355#5019#0" />
-            <element signature="e#5060#6039#0" />
-            <element signature="e#6050#6444#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/components/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="254" column="10" selection-start-line="254" selection-start-column="10" selection-end-line="254" selection-end-column="10" />
+        <state relative-caret-position="539">
+          <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="306" column="33" lean-forward="true" selection-start-line="306" selection-start-column="33" selection-end-line="306" selection-end-column="33" />
+          <folding>
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
