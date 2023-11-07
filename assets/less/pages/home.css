@@ -355,12 +355,7 @@ header .bottom {
     margin-left: auto;
   }
   header .phone a {
-    display: flex;
-    align-items: center;
     color: white;
-  }
-  header .phone img {
-    margin-right: 0.8rem;
   }
   header h1 {
     font-size: 4rem;
