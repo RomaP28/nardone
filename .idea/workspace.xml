@@ -21,8 +21,24 @@
       <file leaf-file-name="reviews.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/less/components/reviews.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="239" selection-start-line="238" selection-end-line="239" />
+            <state relative-caret-position="384">
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="375" column="5" lean-forward="true" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
+              <folding>
+                <element signature="e#237#1159#0" />
+                <element signature="e#1167#3414#0" />
+                <element signature="e#4355#5019#0" />
+                <element signature="e#5060#6039#0" />
+                <element signature="e#6050#6444#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,10 +81,10 @@
         <option value="$PROJECT_DIR$/assets/less/components/word-animation.less" />
         <option value="$PROJECT_DIR$/assets/less/base/base.less" />
         <option value="$PROJECT_DIR$/pages/cabinets.html" />
-        <option value="$PROJECT_DIR$/assets/less/pages/home.less" />
         <option value="$PROJECT_DIR$/assets/less/components/footer.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/less/components/header.less" />
+        <option value="$PROJECT_DIR$/assets/less/pages/home.less" />
         <option value="$PROJECT_DIR$/assets/less/components/reviews.less" />
       </list>
     </option>
@@ -127,6 +143,13 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nardone-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nardone-dev" type="b2602c69:ProjectViewProjectNode" />
@@ -206,12 +229,12 @@
       <workItem from="1699277765709" duration="6253000" />
       <workItem from="1699295521124" duration="1369000" />
       <workItem from="1699339969421" duration="5455000" />
-      <workItem from="1699350760070" duration="243000" />
+      <workItem from="1699350760070" duration="701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78659000" />
+    <option name="totallyTimeSpent" value="79117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="934" extended-state="0" />
@@ -222,9 +245,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15523465" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1299639" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1299639" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,19 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="252" column="20" lean-forward="true" selection-start-line="252" selection-start-column="20" selection-end-line="252" selection-end-column="20" />
-          <folding>
-            <element signature="e#237#1142#0" />
-            <element signature="e#1150#3397#0" />
-            <element signature="e#5052#6008#0" />
-            <element signature="e#6019#6413#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/components/header.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3375">
@@ -580,10 +590,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/pages/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="375" column="5" lean-forward="true" selection-start-line="375" selection-start-column="5" selection-end-line="375" selection-end-column="5" />
+          <folding>
+            <element signature="e#237#1159#0" />
+            <element signature="e#1167#3414#0" />
+            <element signature="e#4355#5019#0" />
+            <element signature="e#5060#6039#0" />
+            <element signature="e#6050#6444#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/components/reviews.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="239" selection-start-line="238" selection-end-line="239" />
+        <state relative-caret-position="384">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
         </state>
       </provider>
     </entry>

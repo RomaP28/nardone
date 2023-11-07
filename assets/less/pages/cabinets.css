@@ -483,12 +483,20 @@ header .bottom {
   white-space: nowrap;
 }
 .reviews .rating {
-  width: 16rem;
   margin: 1.9rem auto 0;
+  width: fit-content;
+}
+.reviews .rating img {
+  width: 16rem;
+  height: 3.2rem;
 }
 .reviews .photo_review {
-  width: 4.4rem;
   margin: auto;
+  width: fit-content;
+}
+.reviews .photo_review img {
+  width: 4.4rem;
+  height: 4.4rem;
 }
 .reviews .info {
   position: absolute;
