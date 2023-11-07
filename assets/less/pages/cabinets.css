@@ -632,12 +632,17 @@ header .bottom {
   overflow: hidden;
 }
 .modal .window img {
-  height: 100%;
+  width: 80rem;
+  height: 80rem;
 }
 @media (max-width: 768px) {
   .modal .window {
     width: 96%;
     margin: 0 auto;
+  }
+  .modal img {
+    width: 30rem;
+    height: 30rem;
   }
 }
 footer {
