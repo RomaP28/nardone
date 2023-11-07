@@ -974,7 +974,8 @@ footer .sitemap {
   column-gap: 2rem;
 }
 .repairs img {
-  max-width: 71rem;
+  width: 71rem;
+  height: 44.6rem;
 }
 .repairs .text {
   max-width: 70.9rem;
@@ -1226,6 +1227,7 @@ footer .sitemap {
   }
   .repairs img {
     width: 38.2rem;
+    height: 24.9rem;
     transform: translateX(-1rem);
   }
   .cases {
