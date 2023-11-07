@@ -827,14 +827,14 @@ footer .sitemap {
 .kitchen-photos .container p span {
   font-family: Montserrat-500;
 }
-.kitchen-photos h3 {
+.kitchen-photos h2 {
   margin-top: 7.2rem;
   font-family: Montserrat-700;
   font-size: 2.4rem;
   line-height: 2.2rem;
   color: #131313;
 }
-.kitchen-photos h3 + span {
+.kitchen-photos h2 + span {
   display: inline-block;
   margin-top: 1.3rem;
   font-family: Montserrat-500;
@@ -851,10 +851,13 @@ footer .sitemap {
 }
 .kitchen-photos .card {
   cursor: pointer;
-  width: 34.5rem;
   text-align: center;
 }
-.kitchen-photos .card h4 {
+.kitchen-photos .card img {
+  width: 34.5rem;
+  height: 34.5rem;
+}
+.kitchen-photos .card h3 {
   font-family: Montserrat-500;
   font-size: 1.4rem;
   line-height: 1.75rem;
@@ -876,11 +879,11 @@ footer .sitemap {
   .kitchen-photos .container p {
     line-height: 2.2rem;
   }
-  .kitchen-photos h3 {
+  .kitchen-photos h2 {
     margin-top: 3.2rem;
     font-size: 1.6rem;
   }
-  .kitchen-photos h3 + span {
+  .kitchen-photos h2 + span {
     margin-top: 1rem;
     font-size: 1.2rem;
   }
@@ -888,8 +891,12 @@ footer .sitemap {
     column-gap: 1.2rem;
     row-gap: 3.3rem;
   }
-  .kitchen-photos .card {
+  .kitchen-photos .card img {
     width: 17.3rem;
+    height: 17.3rem;
+  }
+  .kitchen-photos .card p {
+    font-size: 1.4rem;
   }
 }
 /*# sourceMappingURL=cabinets.css.map */
